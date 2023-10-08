@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+
+}
+main div {
+    margin-top: 20px; ;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.cent_img{
+    width: 20%;
+}
+span {
+    display: inline-block;
+    margin: 30px;
+}
+.cent_spanL{
+    padding-right:35px;
+    
+}
+.cent_spanR{
+    padding-left: 35px;
+}
+.divL{
+    align-items: end;
+}
